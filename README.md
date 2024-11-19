@@ -13,7 +13,7 @@ dotnet build
 Builds the solution.
 
 ```
-dotnet run --project CSVtoJSON_Converter\CSVtoJSON_Converter.csproj
+dotnet run --project src\Identity.api\Identity.api.csproj
 ```
 Runs the project.
 
