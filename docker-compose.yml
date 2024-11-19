@@ -6,7 +6,7 @@ services:
     image: ${DOCKER_REGISTRY-}identity.api
     build:
       context: .
-      dockerfile: /Identity.api/Dockerfile
+      dockerfile: /src/Identity.api/Dockerfile
     networks:
       - backend-network
     ports:
